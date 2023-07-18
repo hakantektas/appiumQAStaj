@@ -1,9 +1,30 @@
-
-# WebdriverIO Mobile Automation
-
 Using Mocha Framework and chai asserion library, writing and running mobile automation and creating test reports with allure report.
+# WebdriverIO Mobile Automation
+![image](https://user-images.githubusercontent.com/105457661/171344591-02737e7e-f1db-4192-8c3b-e202f4eb5fab.png)
+[WebdriverIO](https://webdriver.io/) 
 
-## SETUP
+## Supports
+  * Native or Hybrid Android and iOS apps (APK, AAB, IPA)
+  * Chrome mobileweb testing on Android devices
+  * Safari mobileweb testing on iOS devices
+  * Page Object Model (POM) usage with [wdio](https://webdriver.io/)
+  * Example BDD scenarios with [cucumber.js](https://github.com/cucumber/cucumber-js) and wdio
+  * Auto generated HTML [Allure](https://docs.qameta.io/allure/) test report after test
+  * Take screenshot on test failure
+
+## Setup
+
+**Requirements:**
+
+* WebdriverIO v8 requires Node.js version 14 or higher. If you don't have Node installed, download it from [here](https://nodejs.org/en/).
+* Install the [Allure command-line tool](https://www.npmjs.com/package/allure-commandline), and process the results directory after test run.
+
+**Install the dependencies:**
+
+Run the following command in project's base directory :
+```
+npm i
+```
 
 mkdir [fileName]
 
