@@ -7,14 +7,16 @@ pipeline {
         git 'https://github.com/hakantektas/mac-webdriverIO.git'
       }
     }
-     
+    stage('chmod') {
+      steps {
+        sh 'sudo chmod -R 777 /usr/local/lib'
+      }
+    } 
     stage('Build') {
       steps {
         sh 'npm install'
       }
-    }  
-    
-            
+    }   
     stage('Test') {
       steps {
         sh 'npm run test'
