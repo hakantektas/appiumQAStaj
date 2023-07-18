@@ -1,6 +1,5 @@
 Using Mocha Framework and chai asserion library, writing and running mobile automation and creating test reports with allure report.
 # WebdriverIO Mobile Automation
-![image](https://user-images.githubusercontent.com/105457661/171344591-02737e7e-f1db-4192-8c3b-e202f4eb5fab.png)
 [WebdriverIO](https://webdriver.io/) 
 
 ## Supports
