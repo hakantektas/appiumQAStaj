@@ -1,6 +1,4 @@
-# appiumQAStaj
-
-WebdriverIO Mobile Automation
+#WebdriverIO Mobile Automation
 Using Mocha Framework and chai asserion library, writing and running mobile automation and creating test reports with allure report.
 
 Tests
